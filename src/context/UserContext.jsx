@@ -10,7 +10,7 @@ const UserContext = ({children}) => {
 
     let [userData, setUserData] = useState({})
 
-    const serverUrl = "http://localhost:8000"
+    const serverUrl = "https://backend-signkaro.onrender.com"
 
     const getUserData = async () => {
          try {
